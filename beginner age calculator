@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int b ;
+int a;
+cout << "Type the current year: " ;
+cin >> b;
+cout <<"Type the year of birth :  ";
+cin >> a ;
+cout <<"Your age is :" << b-a;
+return 0;
+}
